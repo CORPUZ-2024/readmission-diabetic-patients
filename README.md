@@ -31,7 +31,7 @@ Source: https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+ye
  
 
 ## Project Status 
-**Completed**  Per this project's requirements, this project is complete. However, as discussed in the Limitation section of this project, some features can be cleaned and reintegrated to our model to see if the f1 scores of the  models will improve. A preliminary literature review can also be conducted in order to investigate other factors that might be relevant to our inquiry.A literature review was not required to do this project but ideally should be done prior to EDA. The results after these changes are made can be compared to the results from the study done by [Strack et al.](https://www.hindawi.com/journals/bmri/2014/781670/). **Please contact me for the full source code. Some functions were redacted from this version**
+**Completed**  Per this project's requirements, this project is complete. However, as discussed in the Limitation section of this project, some features can be cleaned and reintegrated to our model to see if the f1 scores of the  models will improve. A preliminary literature review can also be conducted in order to investigate other factors that might be relevant to our inquiry.A literature review was not required to do this project but ideally should be done prior to EDA. The results after these changes are made can be compared to the results from the study done by [Strack et al.](https://www.hindawi.com/journals/bmri/2014/781670/). ** Some functions were redacted from this version**
 
 
   
