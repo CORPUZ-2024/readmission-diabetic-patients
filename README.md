@@ -1,8 +1,6 @@
 # Classifying Readmission and Non-Readmission Events Among  Diebetic Patients 
 A simple classification analysis of readmission and non-readmission events among diabetes patients using supervised machine learning techniques in Python. This project was a graded coursework for [MSDS 599](https://catalog.usfca.edu/preview_course_nopop.php?catoid=22&coid=234730) .
 
-The structure of this project is in accordance with the requirements of the class. 
-
 ## Background 
 Readmission rates for diabetic patients  vary between  4.4 and 22.7% which is higher than the rate for all hospitalized patients which ranges between 8.5–13.5% according to
 [Ostling et al.](https://pubmed.ncbi.nlm.nih.gov/28702257/)
