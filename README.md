@@ -13,16 +13,16 @@ High readmission rates not only translate to increased healthcare costs but can 
 
 ## Data Source and Introduction  
 This diabetes dataset includes 10 years (1999–2008) of clinical care at 130 hospitals and integrated delivery networks throughout the United States: Midwest (18 hospitals), Northeast (58), South (28), and West (16).
-The database consists of 41 tables and 117 features. The database includes 74,036,643 unique encounters (visits) that correspond to 17,880,231 unique patients and 2,889,571 providers. The dataset includes inpatient and outpatient data, including emergency department, for the same group of patients. However, data from out-of-network providers is not captured.
+The database consists of 41 tables and 117 features. The database includes 74,036,643 unique encounters (visits) that correspond to 17,880,231 unique patients and 2,889,571 providers. The dataset includes inpatient and outpatient data, including emergency department encounter data for the same group of patients. However, data from out-of-network providers was not captured.
 
 Information was extracted from the database for encounters that satisfied the following criteria:
-It was an inpatient encounter (a hospital admission).
-It was a “diabetic” encounter, that is, one during which any kind of diabetes was entered to the system as a diagnosis.
+Claim was an inpatient encounter (a hospital admission).
+Claim was a “diabetic” encounter, that is, one during which any kind of diabetes was entered to the system as a diagnosis.
 The length of stay was at least 1 day and at most 14 days.
 Laboratory tests were performed during the encounter.
 Medications were administered during the encounter.
 
-These criteria were applied to remove admissions for procedures and so forth, which were of less than 23 hours of duration and in which changes in diabetes management were less likely to have occurred.
+These criteria were applied to remove admissions for procedures and so forth, which were less than 23 hours of duration and in which changes in diabetes management were less likely to have occurred.
 A dataset with 101,766 encounters was created after applying the above criteria.
 
 Source: https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008
