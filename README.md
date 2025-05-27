@@ -13,7 +13,7 @@ High readmission rates not only translate to increased healthcare costs but can 
 
 ## Data Source and Introduction  
 This diabetes dataset includes 10 years (1999–2008) of clinical care at 130 hospitals and integrated delivery networks throughout the United States: Midwest (18 hospitals), Northeast (58), South (28), and West (16).
-The database consists of 41 tables and 117 features. The database includes 74,036,643 unique encounters (visits) that correspond to 17,880,231 unique patients and 2,889,571 providers. The dataset includes inpatient and outpatient data, including emergency department encounter data for the same group of patients. However, data from out-of-network providers was not captured.
+The database consists of 41 tables and 117 features. The database includes 74,036,643 unique encounters (visits) that correspond to 17,880,231 unique patients and 2,889,571 providers. The dataset includes inpatient and outpatient data, including emergency department encounter data for the same group of patients. However, data from out-of-network providers were not captured.
 
 Information was extracted from the database for encounters that satisfied the following criteria:
 Claim was an inpatient encounter (a hospital admission).
